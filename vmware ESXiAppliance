@@ -1,6 +1,20 @@
 
 1. esxi shell
 
-2. work with vcenter (appliance)
-https://cuongquach.com/cai-dat-vcenter-server-appliance-vcsa-6-5.html
-vmware vcenter server appliance (VCSA) 
+
+2. work with vcenter (appliance)  
+  
+  ** NOTE: min RAM = 10GB, storage = 300GB
+  
+  https://cuongquach.com/cai-dat-vcenter-server-appliance-vcsa-6-5.html
+  vmware vcenter server appliance (VCSA)
+  INSTALLATION: 
+  steps: (1) deploying new appliance to the ESXi Host (2) complete the setup
+  download: vmware-vcsa-all-6.7.0-11726888 
+  ../wind32/installer.exe
+  -> deploy appliance
+  -> option: vcenter with embedded platform service controller
+  -> target: IP, pORT, usrname/pass
+  -> VM = appliance setup (new pass: P@ssw0rd)
+
+3. 
